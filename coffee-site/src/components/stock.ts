@@ -1,7 +1,7 @@
 export const stock = () => {
     return `
-    <div class="stock-wrapper border-bottom">
-    <p class="stock-text p-24   ">Акции</p>
+    <div class="stock-wrapper border-bottom" id="stock">
+    <p class="stock-text p-24">Акции</p>
     <div class="vacancies">
      <div class="vacancy">
     <p class="text-center">Плати за кофе сколько хочешь</p>

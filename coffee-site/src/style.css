@@ -6,19 +6,12 @@ p {
 
 html {
     user-select: none;
+    scroll-behavior: smooth;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 body {
@@ -112,7 +105,8 @@ body {
     cursor: pointer;
     border-radius: 5px;
     font-size: 16px;
-    background: #E1D4C9;
+    color: #E1D4C9;
+    background: #665F55;
 }
 
 .btn:hover {
@@ -125,6 +119,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: none;
 }
 
 .icon {
@@ -144,7 +139,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     border-top: 1px solid black;
     padding: 10px;
 }
@@ -161,6 +156,22 @@ body {
     background: url("../public/img/chain.jpg");
     background-size: cover;
 }
+
+.menu-btn {
+    border: 1px solid black;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 5px;
+    color: #E1D4C9;
+    background: #665F55;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    box-shadow: 1px 1px 1px black;
+}
+
+
 
 .picture-about {
     background: url("../public/img/coffee-picture.jpg");
@@ -207,12 +218,6 @@ body {
     border: 1px solid black;
     backdrop-filter: brightness(0.6) saturate(0.7) blur(2px);
 }
-
-.more-info {
-    background: #E1D4C9;
-}
-
-
 
 .p-stat {
     padding: 20px;
@@ -304,6 +309,10 @@ h3 {
 
 .p-city {
     font-size: 24px;
+}
+
+.a-more-info {
+    color: #E1D4C9;
 }
 
 .a-more-info:hover {
@@ -430,3 +439,36 @@ h3 {
     gap: 20px;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+select {
+    width: 200px;
+    font-size: 16px;
+}
+
+.modal {
+    z-index: 9999;
+    width: 50%;
+}
+
+input {
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+dialog::backdrop {
+    background: grey;
+    opacity: 0.7;
+}
+
+.header-modal {
+    display: flex;
+    justify-content: space-between;
+}

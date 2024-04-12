@@ -5,9 +5,11 @@ import {team} from "./team";
 import {stock} from "./stock";
 import {comments} from "./comments";
 import {footer} from "./footer";
+import modal from "./modal";
 
 export const header = () => {
     return `
+${modal()}
      <div class="background">
     <div class="wrapper">
     <div class="header">
@@ -26,13 +28,12 @@ export const header = () => {
    </div>
 </div>
     <div class="menu-btns">
-    <button class="about-us btn" id="about">О нас</button>
-    <button class="about-us btn" id="about">Адреса</button>
-    <button class="address btn" id="address">Вакансии</button>
-    <button class="menu btn" id="vacancy">Меню</button>
-    <button class="stock btn" id="menu">Акции</button>
-    <button class="comments btn" id="stock">Отзывы</button>
-    <button class="contact btn" id="contact">Контакты</button>
+    <a href="#info"><div class="about-us menu-btn">О нас</div></a>
+    <a href="#address"><div class="about-us menu-btn">Адреса</div></a>
+    <a href="#vacancies"><div class="address menu-btn">Вакансии</div></a>
+    <a href="#stock"><div class="stock menu-btn" >Акции</div></a>
+    <a href="#comments"><div class="comments menu-btn">Отзывы</div></a>
+    <a href="#footer"><div class="contact menu-btn">Контакты</div></a>
 </div>
 </div>
 ${info()}

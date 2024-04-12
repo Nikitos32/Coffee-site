@@ -1,6 +1,6 @@
 export const cityInfo = () => {
     return `
-    <div class="wrapper-info border-bottom"> 
+    <div class="wrapper-info border-bottom" id="address"> 
     <div class="city">
     <p class="p-city">СЕГОДНЯ COFFEE DELIGHT ПРЕДСТАВЛЕНА В 10-ТИ ГОРОДАХ БЕЛАРУСИ</p>
     <p class="p-locate">Кофейни расположены в следующих городах: Минск, Барановичи, Новополоцк, Витебск, Слуцк, Солигорск, Гомель, Вилейка, Молодечно и Мозырь</p>

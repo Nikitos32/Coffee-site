@@ -1,6 +1,6 @@
 export const comments = () => {
     return `
-    <div class="comments-wrapper border-bottom">
+    <div class="comments-wrapper border-bottom" id="comments">
     <p class="comments-text p-24">Отзывы</p>
     <div class="comments-div">
     <div class="user-comment">Отзыв 1</div>

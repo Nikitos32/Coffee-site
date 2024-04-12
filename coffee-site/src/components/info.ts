@@ -1,6 +1,6 @@
 export default function info() {
     return `
-    <div class="wrapper-info border-bottom">
+    <div class="wrapper-info border-bottom" id="info">
     <div class="chain">
     <div class="blur">
     <p class="p-chain p-24">СЕТЬ КОФЕЕН COFFEE DELIGHT В БЕЛАРУСИ</p>

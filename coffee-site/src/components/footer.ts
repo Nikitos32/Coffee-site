@@ -1,6 +1,6 @@
 export const footer = () => {
     return `
-    <div class="footer-wrapper"> 
+    <div class="footer-wrapper" id="footer"> 
     <p class="p-24">Контакты</p>
     <div class="main-footer">
     <div class="address-info-wrapper">
