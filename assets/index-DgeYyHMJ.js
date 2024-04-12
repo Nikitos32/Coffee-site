@@ -1,4 +1,4 @@
-(function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const t of document.querySelectorAll('link[rel="modulepreload"]'))c(t);new MutationObserver(t=>{for(const e of t)if(e.type==="childList")for(const a of e.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&c(a)}).observe(document,{childList:!0,subtree:!0});function o(t){const e={};return t.integrity&&(e.integrity=t.integrity),t.referrerPolicy&&(e.referrerPolicy=t.referrerPolicy),t.crossOrigin==="use-credentials"?e.credentials="include":t.crossOrigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function c(t){if(t.ep)return;t.ep=!0;const e=o(t);fetch(t.href,e)}})();function l(){return`
+(function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const t of document.querySelectorAll('link[rel="modulepreload"]'))c(t);new MutationObserver(t=>{for(const e of t)if(e.type==="childList")for(const a of e.addedNodes)a.tagName==="LINK"&&a.rel==="modulepreload"&&c(a)}).observe(document,{childList:!0,subtree:!0});function o(t){const e={};return t.integrity&&(e.integrity=t.integrity),t.referrerPolicy&&(e.referrerPolicy=t.referrerPolicy),t.crossOrigin==="use-credentials"?e.credentials="include":t.crossOrigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function c(t){if(t.ep)return;t.ep=!0;const e=o(t);fetch(t.href,e)}})();function n(){return`
     <div class="wrapper-info border-bottom" id="info">
     <div class="chain">
     <div class="blur">
@@ -11,7 +11,7 @@
 <p class="p-stat">COFFEE DELIGHT сегодня - более 50 кофеен с посадкой и более 100 кофеен самообслуживания по всей Беларуси</p>
 </div>
 </div>
-  `}const n=()=>`
+  `}const l=()=>`
     <div class="wrapper-info border-bottom"> 
     <div class="section-numbers">
     <p class="p-18">МЫ - БЫСТРОРАСТУЩАЯ СЕТЬ КОФЕЕН БЕЛАРУСИ</p>
@@ -42,7 +42,7 @@
 </div>
    <div class="text-idea-way">
    <a href="https://www.google.com/maps/search/%D0%BA%D0%BE%D1%84%D0%B5%D0%B9%D0%BD%D0%B8+%D0%BC%D0%B8%D0%BD%D1%81%D0%BA/@53.89014,27.5677181,12z/data=!3m1!4b1?entry=ttu">
-   <img class="map-img" src="../public/img/map.jpg" alt="map">
+   <img class="map-img" src="/img/map.jpg" alt="map">
    </a>
 </div>
 </div>
@@ -104,7 +104,7 @@
     <div class="address-info">Адрес главного офиса: Минск, ул. Сурганова, 2, Офис 402,406,409</div>
     <div class="call"><a href="tel:+37544521-33-58" class="tel">+375 (44) 521-33-58</a><div class="call-number"><a href="tel:+37544521-33-58">Позвонить </a><i class="material-icons">call</i></div></div>
 </div>
-    <div class="img-wrapper"><img class="map-img" src="../public/img/map.jpg" alt="office"></div>
+    <div class="img-wrapper"><img class="map-img" src="/img/map.jpg" alt="office"></div>
     <div class="date">
     <p>Время работы: ПН-ПТ: 09:00-19:00</p>
     <p>Для маркетинга: coffeedelight@mail.ru</p>
@@ -138,14 +138,14 @@ ${f()}
     <div class="wrapper">
     <div class="header">
     <div class="contact-info">
-    <div class="logo"><img class="logo-img" src="../public/img/coffee-logo.png" alt="logo"></div>
+    <div class="logo"><img class="logo-img" src="/img/coffee-logo.png" alt="logo"></div>
     <div class="wrapper-contacts">
     <div class="title"><p class="coffee-name">COFFEE-DELIGHT</p><p class="p-18">Кофейня</p></div>
     <div class="contacts">
     <div class="social">
-    <button class="viber btn"><img class="icon" src="../public/icons/viber.png" alt="tg"></button>
-    <button class="tg btn"><img class="icon" src="../public/icons/tg.png" alt="tg"></button>
-    <button class="inst btn"><img class="icon" src="../public/icons/inst.png" alt="tg"></button>
+    <button class="viber btn"><img class="icon" src="/icons/viber.png" alt="tg"></button>
+    <button class="tg btn"><img class="icon" src="/icons/tg.png" alt="tg"></button>
+    <button class="inst btn"><img class="icon" src="/icons/inst.png" alt="tg"></button>
 </div>
     <div class="call"><a href="tel:+37544521-33-58" class="tel">+375 (44) 521-33-58</a><div class="call-number"><a href="tel:+37544521-33-58">Позвонить </a><i class="material-icons">call</i></div></div>
 </div>
@@ -160,8 +160,8 @@ ${f()}
     <a href="#footer"><div class="contact menu-btn">Контакты</div></a>
 </div>
 </div>
-${l()}
 ${n()}
+${l()}
 ${d()}
 ${r()}
 ${u()}
