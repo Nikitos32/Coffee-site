@@ -8,7 +8,7 @@ export const cityInfo = () => {
 </div>
    <div class="text-idea-way">
    <a href="https://www.google.com/maps/search/%D0%BA%D0%BE%D1%84%D0%B5%D0%B9%D0%BD%D0%B8+%D0%BC%D0%B8%D0%BD%D1%81%D0%BA/@53.89014,27.5677181,12z/data=!3m1!4b1?entry=ttu">
-   <img class="map-img" src="/img/map.jpg" alt="map">
+   <img class="map-img" src="../img/map.jpg" alt="map">
    </a>
 </div>
 </div>
