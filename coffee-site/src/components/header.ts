@@ -14,14 +14,14 @@ ${modal()}
     <div class="wrapper">
     <div class="header">
     <div class="contact-info">
-    <div class="logo"><img class="logo-img" src="../img/coffee-logo.png" alt="logo"></div>
+    <div class="logo"><img class="logo-img" src="Coffee-site/img/coffee-logo.png" alt="logo"></div>
     <div class="wrapper-contacts">
     <div class="title"><p class="coffee-name">COFFEE-DELIGHT</p><p class="p-18">Кофейня</p></div>
     <div class="contacts">
     <div class="social">
-    <button class="viber btn"><img class="icon" src="../icons/viber.png" alt="tg"></button>
-    <button class="tg btn"><img class="icon" src="../icons/tg.png" alt="tg"></button>
-    <button class="inst btn"><img class="icon" src="../icons/inst.png" alt="tg"></button>
+    <button class="viber btn"><img class="icon" src="Coffee-site/icons/viber.png" alt="tg"></button>
+    <button class="tg btn"><img class="icon" src="Coffee-site/icons/tg.png" alt="tg"></button>
+    <button class="inst btn"><img class="icon" src="Coffee-site/icons/inst.png" alt="tg"></button>
 </div>
     <div class="call"><a href="tel:+37544521-33-58" class="tel">+375 (44) 521-33-58</a><div class="call-number"><a href="tel:+37544521-33-58">Позвонить </a><i class="material-icons">call</i></div></div>
 </div>
